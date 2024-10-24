@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"baseUrl": ".",
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"jsx": "react",
+		"noEmitOnError": true,
+		"outDir": "dist",
+		"sourceMap": true,
+		"target": "es5",
+		"lib": ["dom"],
+		"resolveJsonModule": true,
+		"strict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"forceConsistentCasingInFileNames": true
+	},
+	"exclude": ["node_modules", "dist", "lib", "lib-amd"],
+	"ts-node": {
+		"files": true
+	}
+}
